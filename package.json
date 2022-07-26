@@ -1,0 +1,15 @@
+{
+	"name": "yarn-workspace-pnp",
+	"version": "1.0.0",
+	"description": "pnp workspaces dependency bug",
+	"author": "alex-enchi <alex.enchi@gmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"build":"yarn workspaces foreach -pi run build"
+	},
+	"workspaces": [
+		"packages/*"
+	],
+	"private": true,
+	"packageManager": "yarn@3.2.2"
+}

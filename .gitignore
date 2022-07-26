@@ -1,0 +1,33 @@
+# Logs
+logs
+*.log
+pids
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Bower dependency directory (https://bower.io/)
+bower_components
+
+# Dependency directories
+node_modules/
+jspm_packages/
+.yarn/
+
+.pnp.cjs
+.pnp.loader.mjs
+
+# Snowpack dependency directory (https://snowpack.dev/)
+web_modules/
+
+dist/
+
+.idea
+.vscode
+.DS_Store
+*.iml
+
+# Angular
+.angular
