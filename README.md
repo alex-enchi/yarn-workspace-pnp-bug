@@ -12,7 +12,7 @@ This is yarn workspaces project with 2 packages: dummy vue and react appliations
 6. `yarn build` to try and build <- that step fails
 
 ## How to fix this
-1. change in `.yarnc.yml` `nodeLinker: pnp` to `nodeLinker: node-modules`
+1. change or add in `.yarnc.yml` `nodeLinker: pnp` to `nodeLinker: node-modules`
 
 ## Expected behaviour
 `yarn workspaces` should work with `pnp` and `pnpm` linkers
